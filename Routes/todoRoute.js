@@ -1,6 +1,6 @@
 // importing libs
 import express from "express";
-import { createTodo } from "../Controllers/todoController";
+import { createTodo } from "../Controllers/todoController.js";
 const router = express.Router()
 
 // routes
